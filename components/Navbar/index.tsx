@@ -43,6 +43,7 @@ const Navbar: React.FC = () => {
                   path={navItem.path}
                   currentPath={path}
                   style='my-2 mx-8 text-lg '
+                  key={navItem.path}
                 />
               );
             })}
@@ -79,6 +80,7 @@ const Navbar: React.FC = () => {
                     currentPath={path}
                     style='py-[0.75rem]'
                     onClick={handleSideNav}
+                    key={navItem.path}
                   />
                 );
               })}
