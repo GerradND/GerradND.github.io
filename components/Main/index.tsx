@@ -1,5 +1,5 @@
 import React from 'react';
-import Download from '../Download';
+import Image from 'next/image';
 
 const Main: React.FC = () => {
   return (
@@ -10,7 +10,14 @@ const Main: React.FC = () => {
           <h2>I'm Gerrad</h2>
           <h3 className='text-turqoise-cst pt-6 sm:pt-10'>A Frontend Developer</h3>
         </div>
-        <Download />
+        <div>
+          <a href='CV Gerrad Natanael Daloma.pdf' download='Gerrad Natanael Daloma CV.pdf'>
+            <button className='bg-orange-cst flex p-4 md:p-6 rounded-lg w-fit cursor-pointer justify-center items-center'>
+              <p className='text-black-1 pr-4 md:text-xl font-medium'>Download CV </p>
+              <Image src='/assets/icon/download.svg' alt='download icon' height={24} width={24} />
+            </button>
+          </a>
+        </div>
       </div>
       <div className='h-[40vh] sm:h-[85vh] sm:pl-5 flex-1 pt-10 sm:pt-0'>
         <img className='h-full w-full object-contain' src='/assets/gerrad-pic.png' />
