@@ -19,11 +19,11 @@
   }
 
   h2 {
-    @apply text-5xl lg:text-6xl;
+    @apply text-5xl md:text-6xl;
   }
 
   h3 {
-    @apply text-4xl lg:text-5xl;
+    @apply text-4xl md:text-5xl;
   }
 
   h4 {
@@ -37,4 +37,21 @@
 }
 .swiper-pagination-bullet-active {
   background-color: #ffb800 !important;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #f1f1f1;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
