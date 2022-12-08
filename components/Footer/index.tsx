@@ -5,16 +5,13 @@ const Footer: React.FC = () => {
   return (
     <footer className='bg-black-1 flex flex-col justify-center items-center py-5'>
       <div className='flex justify-center items-center my-4'>
-        <a className='pr-4'>
+        <a className='pr-4' href='https://www.linkedin.com/in/gerrad-natanael/'>
           <Image src='/assets/icon/linkedin.svg' alt='Linkedin Logo' width={44} height={44} />
         </a>
-        <a className='pr-4'>
+        <a className='pr-4' href='https://github.com/GerradND'>
           <Image src='/assets/icon/github.svg' alt='Github Logo' width={44} height={44} />
         </a>
-        <a className='pr-4'>
-          <Image src='/assets/icon/discord.svg' alt='Discord Logo' width={44} height={44} />
-        </a>
-        <a>
+        <a href='https://www.instagram.com/gerrad_nd/'>
           <Image src='/assets/icon/instagram.svg' alt='Instagram Logo' width={40} height={40} />
         </a>
       </div>
