@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import Main from '../components/Main';
 import Project from '../components/Project';
 import Blog from '../components/Blog';
+import Skill from '../components/Skill';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <main className='bg-black-2 w-full px-[2.5rem] md:px-[4.5rem] lg:px-[8rem]'>
         <Main />
         <Project />
+        <Skill />
         <Blog />
       </main>
 
