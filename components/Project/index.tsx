@@ -1,7 +1,7 @@
 import React from 'react';
 import { projects } from '../../data';
 import ProjectCard from './ProjectCard';
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -12,11 +12,10 @@ import 'swiper/css/navigation';
 import { Autoplay, Navigation, Pagination } from 'swiper';
 
 const Project: React.FC = () => {
-  const swiper = useSwiper();
   return (
     <section
       id='project'
-      className='flex flex-col h-full w-full py-[2.5rem] sm:py-[3rem] scroll-mt-10'>
+      className='flex flex-col h-screen w-full py-[2.5rem] sm:py-[3rem] scroll-mt-10'>
       <h3 className='text-orange-cst font-bold'>PROJECTS</h3>
       <div className='h-full pt-[2rem] sm:pt-[3rem]'>
         <Swiper
@@ -25,7 +24,7 @@ const Project: React.FC = () => {
           loop={true}
           loopFillGroupWithBlank={true}
           autoplay={{
-            delay: 4000,
+            delay: 5000,
             disableOnInteraction: false
           }}
           breakpoints={{
