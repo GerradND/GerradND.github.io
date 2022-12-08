@@ -16,7 +16,7 @@ const Project: React.FC = () => {
     <section
       id='project'
       className='flex flex-col h-screen w-full py-[2.5rem] sm:py-[3rem] scroll-mt-10'>
-      <h3 className='text-orange-cst font-bold'>PROJECTS</h3>
+      <h3 className='text-orange-cst font-bold'>PROJECT</h3>
       <div className='h-full pt-[2rem] sm:pt-[3rem]'>
         <Swiper
           slidesPerView='auto'
