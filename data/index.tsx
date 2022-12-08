@@ -41,7 +41,7 @@ export const projects = [
     stack: 'NextJS, TypeScript, Golang, PostgreSQL'
   },
   {
-    url: 'https://github.com/OmzetOrientedProgramming',
+    url: 'https://github.com/GerradND/forecasting-weather',
     img: '/assets/project/forecasting-weather.png',
     title: 'Forecasting Weather',
     description:
@@ -49,7 +49,7 @@ export const projects = [
     stack: 'Python'
   },
   {
-    url: 'https://github.com/OmzetOrientedProgramming',
+    url: 'https://github.com/GerradND/ReMind',
     img: '/assets/project/remindbot.png',
     title: 'RemindBot',
     description:
@@ -57,7 +57,7 @@ export const projects = [
     stack: 'Java, PostgreSQL'
   },
   {
-    url: 'https://github.com/OmzetOrientedProgramming',
+    url: 'https://github.com/GerradND/hadirin',
     img: '/assets/project/hadirin.png',
     title: 'Hadirin',
     description:
@@ -82,5 +82,68 @@ export const navItems = [
   {
     name: 'BLOG',
     path: '#blog'
+  }
+];
+
+export const skills = [
+  {
+    url: 'https://github.com/',
+    img: '/assets/icon/github.svg',
+    title: 'Github'
+  },
+  {
+    url: 'https://www.w3schools.com/html/',
+    img: '/assets/skill/html-5.png',
+    title: 'HTML'
+  },
+  {
+    url: 'https://www.w3schools.com/css/',
+    img: '/assets/skill/css-3.png',
+    title: 'CSS'
+  },
+  {
+    url: 'https://www.javascript.com/',
+    img: '/assets/skill/java-script.png',
+    title: 'JavaScript'
+  },
+  {
+    url: 'https://www.java.com/en/',
+    img: '/assets/skill/java.png',
+    title: 'Java'
+  },
+  {
+    url: 'https://www.python.org/',
+    img: '/assets/skill/python.png',
+    title: 'Python'
+  },
+  {
+    url: 'https://www.postgresql.org/',
+    img: '/assets/skill/postgre.png',
+    title: 'PostgreSQL'
+  },
+  {
+    url: 'https://www.haskell.org/',
+    img: '/assets/skill/haskell.png',
+    title: 'Haskell'
+  },
+  {
+    url: 'https://reactjs.org/',
+    img: '/assets/skill/react.png',
+    title: 'React'
+  },
+  {
+    url: 'https://www.typescriptlang.org/',
+    img: '/assets/skill/typescript.png',
+    title: 'TypeScript'
+  },
+  {
+    url: 'https://go.dev/',
+    img: '/assets/skill/golang.png',
+    title: 'Golang'
+  },
+  {
+    url: 'https://octave.org/',
+    img: '/assets/skill/octave.png',
+    title: 'Octave'
   }
 ];
