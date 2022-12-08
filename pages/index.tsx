@@ -17,7 +17,7 @@ export default function Home() {
           @import
           url('https://fonts.googleapis.com/css2?family=Headland+One&family=Ibarra+Real+Nova:wght@400;600&display=swap');
         </style>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.ico' />
       </Head>
 
       <Navbar />
