@@ -87,11 +87,6 @@ export const navItems = [
 
 export const skills = [
   {
-    url: 'https://github.com/',
-    img: '/assets/icon/github.svg',
-    title: 'Github'
-  },
-  {
     url: 'https://www.w3schools.com/html/',
     img: '/assets/skill/html-5.png',
     title: 'HTML'
@@ -142,8 +137,13 @@ export const skills = [
     title: 'Golang'
   },
   {
-    url: 'https://octave.org/',
-    img: '/assets/skill/octave.png',
-    title: 'Octave'
+    url: 'https://dotnet.microsoft.com/en-us/learn/csharp',
+    img: '/assets/skill/c-sharp.png',
+    title: 'C#'
+  },
+  {
+    url: 'https://www.microsoft.com/en-us/sql-server/sql-server-downloads',
+    img: '/assets/skill/sql-server.png',
+    title: 'SQL Server'
   }
 ];
