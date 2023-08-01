@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { Typewriter, Cursor } from 'react-simple-typewriter';
 
 const Main: React.FC = () => {
   return (
@@ -8,7 +9,16 @@ const Main: React.FC = () => {
         <div className='max-h-full pb-10 lg:pb-16'>
           <h1 className='text-orange-cst pb-4 lg:pb-6 font-bold'>Hi,</h1>
           <h2>I'm Gerrad</h2>
-          <h3 className='text-turqoise-cst pt-6 lg:pt-10'>A Frontend Developer</h3>
+          <h3 className='text-turqoise-cst pt-6 lg:pt-10'>
+            A
+            <Typewriter
+              words={[' Frontend Developer', ' Backend Developer', ' Fullstack Developer']}
+              loop={Infinity}
+              typeSpeed={90}
+              deleteSpeed={50}
+            />
+            <Cursor cursorColor='#1FC1A4' />
+          </h3>
         </div>
         <div>
           <a href='CV Gerrad Natanael Daloma.pdf' download='Gerrad Natanael Daloma CV.pdf'>
