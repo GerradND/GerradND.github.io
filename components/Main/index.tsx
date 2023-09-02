@@ -4,7 +4,9 @@ import { Typewriter, Cursor } from 'react-simple-typewriter';
 
 const Main: React.FC = () => {
   return (
-    <section className="flex flex-col lg:flex-row justify-between items-center h-screen w-full pt-[1.75rem] pb-[2.5rem] md:pt-[2.5rem] lg:py-[3rem] font-['Headland_One'] overflow-hidden">
+    <section
+      id='home'
+      className="flex flex-col lg:flex-row justify-between items-center min-h-screen w-full pt-[1.75rem] pb-[2.5rem] md:pt-[2.5rem] lg:py-[3rem] font-['Headland_One'] overflow-hidden">
       <div className='flex flex-col flex-1 w-full h-full justify-center'>
         <div className='max-h-full pb-10 lg:pb-16'>
           <h1 className='text-orange-cst pb-4 lg:pb-6 font-bold'>Hi,</h1>

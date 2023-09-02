@@ -3,7 +3,7 @@ import { ProjectCardProps } from '../../../interfaces';
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ url, img, title, desc, stack }) => {
   return (
-    <div className='h-[75vh] flex flex-col overflow-y-auto scrollbar'>
+    <div className='flex flex-col overflow-y-auto scrollbar'>
       <a className='h-full' href={url}>
         <img className='rounded-xl h-[35vh] w-full' src={img} alt='project wave' />
         <div className='flex-1 pt-5'>

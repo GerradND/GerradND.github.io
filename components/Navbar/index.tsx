@@ -10,15 +10,17 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      if (window.scrollY < window.innerHeight * 1) {
-        setPath('/');
-      } else if (window.scrollY < window.innerHeight * 2) {
-        setPath('#project');
-      } else if (window.scrollY < window.innerHeight * 3) {
-        setPath('#skill');
-      } else {
-        setPath('#blog');
-      }
+      const sections = document.querySelectorAll('section');
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+        if (scrollY >= sectionTop - 60 && scrollY < sectionTop + sectionHeight) {
+          const currentId = section.getAttribute('id');
+          if (currentId != null) {
+            setPath(currentId === 'home' ? '/' : '#' + currentId);
+          }
+        }
+      });
     });
   }, []);
 
